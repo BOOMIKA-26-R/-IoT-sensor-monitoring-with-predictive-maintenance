@@ -7,7 +7,7 @@ st.title("⚙️ IoT Sensor & Predictive Maintenance Dashboard")
 
 
 
-BASE_URL = " https://iot-sensor-monitoring-with-predictive.onrender.com" 
+BASE_URL = "https://iot-sensor-monitoring-with-predictive.onrender.com" 
 
 st.sidebar.header("Safety Configuration")
 critical_threshold = st.sidebar.slider("Critical Health Threshold (%)", 5, 50, 20)
